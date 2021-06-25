@@ -1,6 +1,4 @@
 module.exports = {
   lintOnSave: false,
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/vue-api-coin-desc/'
-    : '/'
+  publicPath: '/vue-api-coin-desc/'
 }
